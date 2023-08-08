@@ -69,8 +69,8 @@ The `redeemTokens` function allows players to redeem tokens for items in the in-
 
 ### Video Walkthrough
 
-https://www.loom.com/share/f60e012aa52f4354909dd3e2d5e745d8
+https://www.loom.com/share/b5f8598389ad4197960e5d3f7b15d2c7?sid=db7fa66d-a7dc-4354-989a-25294e4c1b8e
 
 ## Author
   
-Moshahid Raza
+Sourav Kapoor
