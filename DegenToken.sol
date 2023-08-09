@@ -18,7 +18,7 @@ contract DegenToken is ERC20, Ownable, ERC20Burnable {
             approve(msg.sender, value);
             transferFrom(msg.sender, _address, value);
         }
-        function CheckBalance() external view returns(uint128){
+        function CheckingBalance() external view returns(uint128){
            return balanceOf(msg.sender);
         }
         function BurningTokens(uint128 value) external{
@@ -28,7 +28,7 @@ contract DegenToken is ERC20, Ownable, ERC20Burnable {
         function GameStore() public pure returns(string memory) {
             return "1. UltraDegeniteSword value = 500 \n 2. HydroDegeniteSword value = 250 \n 3. DegeniteSword value = 100";
         }
-        function reedemTokens(uint choice) external payable{
+        function ReedemingTokens(uint128 choice) external payable{
             require(choice >= 1 && choice <= 3,"Choose valid Item.");
             if(choice == 1){
                 require(balanceOf(msg.sender) >= 500, "You don't have required number of tokens in wallet.");
