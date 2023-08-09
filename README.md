@@ -46,7 +46,7 @@ The `CheckingBalance` function allows players to check their token balance at an
 ### burnTokens
 
 ```solidity
-function BurningTokens(uint128 amount) external
+function BurningTokens(uint128 value) external
 ```
 
 The `BurningTokens` function enables any token holder to burn their own tokens if they are no longer needed. Token holders can specify the amount of tokens (`value`) they wish to burn. The function requires that the caller has a sufficient balance of tokens.
